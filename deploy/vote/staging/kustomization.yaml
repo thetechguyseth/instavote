@@ -7,7 +7,7 @@ replicas:
   - name: vote
     count: 4
 images:
-  - name: vote
+  - name: schoolofdevops/vote
     newTag: v4
 
 patches:
