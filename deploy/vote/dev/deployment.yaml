@@ -7,4 +7,5 @@ spec:
   template:
     spec:
       containers:
-        - image: schoolofdevops/vote:v4
+        - name: vote
+          image: schoolofdevops/vote:v4
