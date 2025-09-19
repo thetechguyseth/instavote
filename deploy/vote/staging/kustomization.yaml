@@ -6,12 +6,15 @@ resources:
 replicas:
   - name: vote
     count: 4
+images:
+  - name: vote
+    newTag: v4
 
 patches:
-  - target:
-      kind: Deployment
-      name: vote
-    path: deployment.yaml
+  # - target:
+  #     kind: Deployment
+  #     name: vote
+  #   path: deployment.yaml
   - target:
       kind: Service
       name: vote
