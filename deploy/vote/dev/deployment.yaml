@@ -4,3 +4,7 @@ metadata:
   name: vote
 spec:
   replicas: 2
+  template:
+    spec:
+      containers:
+        - image: schoolofdevops/vote:v1
