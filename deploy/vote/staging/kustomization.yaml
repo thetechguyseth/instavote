@@ -6,15 +6,14 @@ resources:
 replicas:
   - name: vote
     count: 4
+
 images:
   - name: schoolofdevops/vote
     newTag: v4
 
+namespace: instavote
+
 patches:
-  # - target:
-  #     kind: Deployment
-  #     name: vote
-  #   path: deployment.yaml
   - target:
       kind: Service
       name: vote

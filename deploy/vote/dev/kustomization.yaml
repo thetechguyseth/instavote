@@ -6,6 +6,9 @@ resources:
 replicas:
   - name: vote
     count: 1
+
 images:
   - name: schoolofdevops/vote
     newTag: v5
+
+namespace: instavote
