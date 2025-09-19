@@ -19,3 +19,6 @@ commonLabels:
 
 commonAnnotations:
   supported-by: "seth"
+
+# configMapGenerator:
+#   - 
