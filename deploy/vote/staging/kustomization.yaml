@@ -7,3 +7,7 @@ patches:
       kind: Deployment
       name: vote
     path: deployment.yaml
+  - target:
+      kind: Service
+      name: vote
+    path: service.yaml
