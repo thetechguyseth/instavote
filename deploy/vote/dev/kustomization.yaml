@@ -12,3 +12,10 @@ images:
     newTag: v5
 
 namespace: instavote
+
+commonLabels:
+  project: instavote
+  env: dev
+
+commonAnnotations:
+  supported-by: "seth"

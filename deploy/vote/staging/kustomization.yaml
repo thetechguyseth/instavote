@@ -13,6 +13,13 @@ images:
 
 namespace: instavote
 
+commonLabels:
+  project: instavote
+  env: staging
+
+commonAnnotations:
+  supported-by: "seth"
+
 patches:
   - target:
       kind: Service
